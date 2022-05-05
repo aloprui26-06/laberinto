@@ -21,8 +21,8 @@ basic.forever(function () {
             basic.pause(1000)
         }
         if (izquierda == false) {
-            maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 50)
-            maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 0)
+            maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 50)
+            maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 0)
             maqueen.writeLED(maqueen.LED.LEDLeft, maqueen.LEDswitch.turnOn)
             basic.pause(1000)
             maqueen.writeLED(maqueen.LED.LEDLeft, maqueen.LEDswitch.turnOff)
